@@ -1,0 +1,22 @@
+- Introdução
+Bom dia, nós somos a Fresh Dragon Fruit e estaremos apresentando uma forma de aumentar os lucros na produção de pitaia.
+ 
+- Abordagem
+Bom, como fazer isso? 
+Nós, oferecemos uma solução que reduz a perca e aumenta a produtividade dentro das plantações atráves do monitoramento de temperaturas.
+Mas antes disso, vamos falar uma pouquinho sobre pitaia!
+
+- Pitaia
+Eu, sou o Elias, e estarei apresentando alguns benefícios da pitaia.
+A Pitaia, é uma fruta exótica que está muito em alta, devido aos nutricionistas
+estarem a recomendado para pessoas que buscam por emagrecimento e diabéticos,
+devido a pitaia ser rica em fibras e ter poucas calorias, para ter uma ideia são 50kcal a cada 100g,
+a pitaia também tem a tiamina que controla o colesterol, auxilia na saúde dos cabelos, pele, olhos, previne o câncer, o envelhecimento precoce 
+e o glucagon que diminui a ansiedade (que também é muito importante para os diabéticos) e ajuda na metabolização dos açúcares e gorduras.
+
+- Protótipo Login
+Pensando na experiencia do usuário desenvolvemos um design intuitivo onde utilizar o programa não será uma dificuldade, aqui na página de login o usuário entra pelo cnpj e senha.
+Protótipo Dashboard (Painel)
+Entrando no painel, o usuário terá a temperatura em tempo em real, um menu com as seguintes opções. Painel, no qual é a página inicial. 
+Perfil, onde pode alterar informações, senhas e Registros, onde mostra as últimas temperaturas registradas. 
+

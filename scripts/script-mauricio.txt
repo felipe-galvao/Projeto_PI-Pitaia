@@ -1,0 +1,10 @@
+Script apresentação
+
+Slide Produtividade e rentabilidade
+	Agora sobre o que realmente importa... dinheiro. Quanto produz e quanto se ganha com uma plantação de pitaia?
+	Para cada 1hectare(10000m²) de plantação da para se plantar 1600 pés de pitaia espaçadas por 2,5mx2,5m e cada pé produz 16000kg de pitaia/ano na fase adulta. Com isso, você recupera seu investimento em 4 anos e ao final de 15 anos se tem um lucro de aprox. 460mil reais. Para cada 1 real investido, se tem o retorno de 6,30
+
+
+
+Simulador financeiro
+	Em nosso site, teremos um simulador que mostra quanto o usuário irá lucrar se investir na plantação de pitaia. Nele teremos 2 tipos de cáculo, com o usuário informando o tamanho do terreno que usará para a plantação de pitaia e outro informando quantas mudas de pitaia serão investidas e nele será mostrado o valor do seu investimento inicial, o tempo para cobrir o investimento e quanto será o lucro final depois de 15 anos

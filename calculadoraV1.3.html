@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <center><h1>Calcule o seu investimento</h1></center>
+
+    <br>
+
+    <div id="principal">
+
+        <div class="div_pes">
+            Quantos pés de pitaia? <br>
+            <input id="qtd_pes" placeholder="número de pés de pitaia" type="text">
+            <button onclick="calcular()">Calcular</button>
+            <div id="msg1"></div>
+        </div>
+
+        <div class="div_area">
+            Qual a sua área disponível para plantação? (m²) <br>
+            <input id="area" placeholder="área da plantação em m²" type="text">
+            <button onclick="calcular2()">Calcular</button>
+            <div id="msg2"></div>
+        </div>
+        
+
+    </div>
+
+</body>
+</html>
+
+<script>
+    // função de cálculo de acordo com o número de pés de pitaia
+    function calcular() {
+        var n = Number(qtd_pes.value);
+        //Com base em informações para 1600 mudas, fizemos um proporcional por muda
+        msg1.innerHTML = 
+        `<h3>O seu investimento inicial = R$ ${((86667.55/1600) * n).toFixed(2)}. <br> 
+        A área da sua plantação = ${((10000/1600) * n).toFixed(2)}m². <br>
+        A partir do 4° ano você alcançará o retorno do seu investimento!<br>
+        Ao final de 15 anos, seu lucro = R$ ${((459133.78/1600) * n).toFixed(2)}<br></h3>
+        *Valores aproximados*`;
+    }
+    // função de cálculo de acordo com a área de plantação
+    function calcular2() {
+        var s = Number(area.value);
+        // Com base em informações paara 1hectare = 10000m², fizemos um proporcional por m²
+        msg2.innerHTML = `<h3>O seu investimento inicial = R$ ${(86667.55/10000 * s).toFixed(2)}. <br>
+        A sua plantação terá ${((1600/10000) * s).toFixed(2)} pés de pitaia. <br>
+        A partir do 4° ano você alcançará o retorno do seu investimento! <br>
+        Ao final de 15 anos, seu lucro = R$ ${((459133.78/10000) * s).toFixed(2)}<br></h3>
+        *Valores aproximados*`;
+    }
+
+</script>

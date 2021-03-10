@@ -1,0 +1,17 @@
+Script para apresentação
+Solução
+Para resolver tudo isso e fazer com que sua produção seja mais rentável nós criamos um sistema que monitora sua plantação por 24 horas e em casos que forem necessários alertas serão emitidos para o produtor, e então ele pode tomar as melhores providências.
+
+Diagrama
+O nosso sistema funciona da seguinte maneira, temos sensores de temperatura que vão gerar dados de média de temperatura durante períodos do dia. Em casos que a temperatura precise ser controlada, será emitido um alerta para o produtor fazendo com que ele tome a melhor previdência, e sua produção continue crescendo de maneira saudável e sem nenhum tipo de perda
+
+Backlog
+Aqui está a maneira que nós utilizamos para executar e organizar o nosso projeto. Usamos uma ferramenta chamada trello, que é uma ferramenta que auxilia na organização de projetos, e foi por onde nós organizamos o nosso backlog, separamos e classificamos os requisitos.
+
+
+Banco de dados
+Esse é o script de criação do bando de dados do nosso projeto. Aqui temos duas tabelas criadas, uma que armazena os dados do cadastro e outra que irá armazenar tudo que o sensor de temperatura ira capturar.
+Na tabela de login temos os campos de usuário que é o cnpj da empresa, senha, o nome representante da empresa, o nome da empresa, email e telefone para contato.
+Na outra tabela que nós chamamos de controle, que é onde vamos armazenar os dados capturados pelo sensor de temperatura. Nessa tabela temos os campos um campo de iddata, temperatura no momento do registro, dia, e o horário que o registro foi capturado
+
+
