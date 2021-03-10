@@ -1,2 +1,2 @@
-# Projeto_PI-Pitaia
+# ProjetoPI-Pitaia
 Projeto de Pesquisa e Inovação
