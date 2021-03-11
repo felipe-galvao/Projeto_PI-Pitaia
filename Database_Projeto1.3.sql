@@ -5,12 +5,11 @@ create database Projeto;
 use Projeto;
 
 -- criando a tabela controle
--- iddata é a primary key da tabela
 create table controle 
-(iddata int primary key auto_increment,
+(idData int primary key auto_increment, -- iddata é a primary key da tabela
 temperatura float(15),
-dia date,
-horario time);
+dia 		date,
+horario 	time);
 
 -- inserindo alguns dados na tabela
 insert into controle values 
@@ -20,25 +19,22 @@ insert into controle values
 -- exibindo os dados da tabela
 select * from controle;
 
-
-
-
-
 -- criando a tabela login
--- usuario é a primary key da tabela
 create table login 
-(cnpj numeric(14) primary key,
-senha varchar(20),
-representante varchar(50),
-empresa varchar(40),
-email varchar(40),
-telefone int);
+(cnpj 			numeric(14) primary key, -- cnpj é a primary key da tabela
+senha 			varchar(20),
+representante 	varchar(50),
+empresa 		varchar(40),
+email 			varchar(40),
+telefone 		int);
 
--- exibindo os dados da tabela
-select * from login;
-
+-- inserindo alguns dados na tabela
 insert into login values 
 (11111111111111, 'As123456', 'Roberto da Silva', 'pitaya é bom', 'roberto.roberto@bandtec.com.br', 1112345678),
 (22222222222222, 'Ab123456', 'João da Silva', 'pitaya boa', 'joaojoao.bandtec.com.br',1198745632);
 
+-- exibindo os dados da tabela
+select * from login;
+
+-- Descreve a tabela
 describe login;
